@@ -21,7 +21,7 @@ const Counter3 = () => {
           }; 
 
     return (
-        <section className="cta-counter-section-3 fix section-bg section-padding bg-cover" data-background="/assets/img/cta-counter-bg.jpg">
+        <section className="cta-counter-section-3 fix section-padding bg-cover" data-background="/assets/img/cta-counter-bg.jpg">
         <div className="container">
             <div className="cta-counter-wrapper-2">
                 <div className="section-title-area">

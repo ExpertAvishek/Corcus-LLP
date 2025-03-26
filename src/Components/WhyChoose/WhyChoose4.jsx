@@ -9,7 +9,7 @@ const WhyChoose4 = () => {
     }, []);
 
     return (
-        <section className="team-section fix section-padding bg-cover" data-background="/assets/img/service/service-bg.jpg">
+        <section className="team-section fix section-padding bg-cover" data-background="/assets/img/service/service.jpg">
             <div className="shape-img float-bob-y">
                 <img src="/assets/img/service/rocket-shape.png" alt="img"/>
             </div>

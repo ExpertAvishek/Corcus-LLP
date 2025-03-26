@@ -9,7 +9,7 @@ const Value1 = () => {
       ]; 
 
     return (
-        <section className="value-section fix section-padding section-bg pt-0">
+        <section className="value-section fix section-padding  pt-0">
         <div className="value-shape">
             <img src="/assets/img/value-shape.png" alt="img" />
         </div>

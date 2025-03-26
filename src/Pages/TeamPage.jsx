@@ -1,11 +1,12 @@
-import BreadCumb from "../Components/Common/BreadCumb";
 import Team3 from "../Components/Team/Team3";
+import Teamhero from "../Components/HeroBanner/Teamhero";
 
 const TeamPage = () => {
   return (
     <div>
-      <BreadCumb Title="Team"></BreadCumb>
-      <Team3></Team3>
+      
+      <Teamhero></Teamhero>
+            <Team3></Team3>
     </div>
   );
 };

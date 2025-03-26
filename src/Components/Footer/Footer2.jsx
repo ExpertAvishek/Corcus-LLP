@@ -90,7 +90,7 @@ const Footer2 = () => {
                     <li>
                       <Link to="/about">
                         <i className="bi bi-arrow-right"></i>
-                        About Corcus
+                        About Us
                       </Link>
                     </li>
                     <li>
@@ -99,22 +99,22 @@ const Footer2 = () => {
                         Our Services
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/blog">
                         <i className="bi bi-arrow-right"></i>
                         Our Blogs
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/Team">
                         <i className="bi bi-arrow-right"></i>
-                        Team
+                        Teams
                       </Link>
                     </li>
                     <li>
                       <Link to="/contact">
                         <i className="bi bi-arrow-right"></i>
-                        Contact Us
+                        Connect Us
                       </Link>
                     </li>
                   </ul>
@@ -182,11 +182,11 @@ const Footer2 = () => {
                     <ul className="contact-info">
                       <li>
                         <i className="fa-regular fa-envelope"></i>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                        <a href="mailto:info@example.com">info@corcus.in</a>
                       </li>
                       <li>
                         <i className="fa-solid fa-phone-volume"></i>
-                        <a href="tel:2086660112">+208-666-0112</a>
+                        <a href="tel:2086660112">+918789677330</a>
                       </li>
                     </ul>
                     <div className="footer-input">

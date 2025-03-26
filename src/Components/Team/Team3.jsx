@@ -25,7 +25,7 @@ const Team3 = () => {
                             <img src={item.img} alt="img" />
                             </div>
                             <div className="team-content">
-                                <h3><Link to="/team/team-details">{item.name}</Link></h3>
+                                <h3>{item.name}</h3>
                                 <p>{item.content}</p>
                             </div>
                             <div className="icon-shape">

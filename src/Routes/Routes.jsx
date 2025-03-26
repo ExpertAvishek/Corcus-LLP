@@ -29,14 +29,14 @@ export const router = createBrowserRouter([
         path: "/about",
         element: <AboutPage></AboutPage>,
       },
-      // {
-      //   path: "/team",
-      //   element: <TeamPage></TeamPage>,
-      // },
-      // {
-      //   path: "/team/team-details",
-      //   element: <TeamDetailsPage></TeamDetailsPage>,
-      // },
+      {
+        path: "/team",
+        element: <TeamPage></TeamPage>,
+      },
+      {
+        path: "/team/team-details",
+        element: <TeamDetailsPage></TeamDetailsPage>,
+      },
       // {
       //   path: "/pricing",
       //   element: <PricingPage></PricingPage>,

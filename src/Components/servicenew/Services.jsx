@@ -6,7 +6,7 @@ const Servicenew = () => {
     <><><div className="container border rounded-lg p-4 mt-4">
       <div className="row">
         <div className="col-md-6 p-4">
-          <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+          <h1 className="display-4 font-weight-bold mb-4 branding-title">Social Media Marketing</h1>
           <p className="text-muted mb-4">
             Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
           </p>
@@ -40,7 +40,7 @@ const Servicenew = () => {
     </div><div className="container border rounded-lg p-4 mt-4">
         <div className="row">
           <div className="col-md-6 p-4">
-            <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+            <h1 className="display-4 font-weight-bold mb-4 branding-title">Google and Meta Ads</h1>
             <p className="text-muted mb-4">
               Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
             </p>
@@ -74,7 +74,7 @@ const Servicenew = () => {
       </div></><div className="container border rounded-lg p-4 mt-4">
         <div className="row">
           <div className="col-md-6 p-4">
-            <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+            <h1 className="display-4 font-weight-bold mb-4 branding-title">Video Production and Shoot</h1>
             <p className="text-muted mb-4">
               Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
             </p>
@@ -108,7 +108,7 @@ const Servicenew = () => {
       </div><div className="container border rounded-lg p-4 mt-4">
         <div className="row">
           <div className="col-md-6 p-4">
-            <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+            <h1 className="display-4 font-weight-bold mb-4 branding-title">Web Development</h1>
             <p className="text-muted mb-4">
               Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
             </p>
@@ -142,7 +142,7 @@ const Servicenew = () => {
       </div><div className="container border rounded-lg p-4 mt-4">
         <div className="row">
           <div className="col-md-6 p-4">
-            <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+            <h1 className="display-4 font-weight-bold mb-4 branding-title">Performance Marketing</h1>
             <p className="text-muted mb-4">
               Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
             </p>
@@ -176,7 +176,7 @@ const Servicenew = () => {
       </div><div className="container border rounded-lg p-4 mt-4">
         <div className="row">
           <div className="col-md-6 p-4">
-            <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
+            <h1 className="display-4 font-weight-bold mb-4 branding-title">SEO & Content Marketing</h1>
             <p className="text-muted mb-4">
               Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
             </p>

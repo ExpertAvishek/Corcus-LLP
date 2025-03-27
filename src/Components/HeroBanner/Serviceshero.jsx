@@ -16,7 +16,7 @@ const Serviceshero = () => {
   // Array of images to be auto-scrolled in the content section
   const heroImages = [
     "public/assets/img/Servicedetail/1.png",
-   "public/assets/img/Servicedetail/2.png",
+    "public/assets/img/Servicedetail/2.png",
     "public/assets/img/Servicedetail/3.png",
     "public/assets/img/Servicedetail/4.png",
     "public/assets/img/Servicedetail/5.png", // Add more images as needed

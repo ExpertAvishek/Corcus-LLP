@@ -18,7 +18,6 @@ const Abouthero = () => {
     "/public/assets/img/about/06.png",
     "/public/assets/img/about/07.png",
     "/public/assets/img/about/08.png",
-    
   ];
 
   // Set the interval to change the image every 3 seconds (3000ms)
@@ -37,13 +36,12 @@ const Abouthero = () => {
     title: " Scale Your Brand with Performance Driven Marketing",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
-    
   };
 
   return (
     <section
       className="hero-section hero-3"
-      style={{ padding: "30px 0 10px 0" }}
+      style={{ padding: "120px 0 10px 0" }}
     >
       <div className="container-fluid">
         <div className="row g-4 justify-content-between align-items-center">
@@ -57,12 +55,14 @@ const Abouthero = () => {
                 {heroContent.content}
               </p>
               <div className="hero-button d-flex gap-3">
-                <div className="main-button wow fadeInUp" data-wow-delay=".3s">
-                  
-                </div>
-                <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-                  
-                </div>
+                <div
+                  className="main-button wow fadeInUp"
+                  data-wow-delay=".3s"
+                ></div>
+                <div
+                  className="main-button wow fadeInUp"
+                  data-wow-delay=".5s"
+                ></div>
               </div>
             </div>
           </div>

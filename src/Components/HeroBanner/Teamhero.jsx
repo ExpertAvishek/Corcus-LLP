@@ -16,7 +16,7 @@ const Teamhero = () => {
   // Array of images to be auto-scrolled in the content section
   const heroImages = [
     "public/assets/img/Servicedetail/1.png",
-   "public/assets/img/Servicedetail/2.png",
+    "public/assets/img/Servicedetail/2.png",
     "public/assets/img/Servicedetail/3.png",
     "public/assets/img/Servicedetail/4.png",
     "public/assets/img/Servicedetail/5.png", // Add more images as needed
@@ -38,13 +38,12 @@ const Teamhero = () => {
     title: " Scale Your Brand with Performance Driven Marketing",
     content:
       " We help businesses maximize their ROI with data-driven strategies, high-converting ads, and powerful digital campaigns.",
-   
   };
 
   return (
     <section
       className="hero-section hero-3"
-      style={{ padding: "30px 0 10px 0" }}
+      style={{ padding: "120px 0 10px 0" }}
     >
       <div className="container-fluid">
         <div className="row g-4 justify-content-between align-items-center">
@@ -58,12 +57,14 @@ const Teamhero = () => {
                 {heroContent.content}
               </p>
               <div className="hero-button d-flex gap-3">
-                <div className="main-button wow fadeInUp" data-wow-delay=".3s">
-                  
-                </div>
-                <div className="main-button wow fadeInUp" data-wow-delay=".5s">
-                  
-                </div>
+                <div
+                  className="main-button wow fadeInUp"
+                  data-wow-delay=".3s"
+                ></div>
+                <div
+                  className="main-button wow fadeInUp"
+                  data-wow-delay=".5s"
+                ></div>
               </div>
             </div>
           </div>

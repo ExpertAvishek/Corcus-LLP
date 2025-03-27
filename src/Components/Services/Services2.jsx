@@ -17,7 +17,7 @@ const Services2 = () => {
     <section className="service-section py-40">
       <div className="container mx-auto">
         <div className="section-title text-center">
-          <h1 className="text-dark-yellow text-10xl font-bold mb-8">
+          <h1 className="text-dark-yellow text-4xl sm:text-6xl lg:text-10xl font-bold mb-4 sm:mb-8">
             The Service We Provide For You
           </h1>
         </div>
@@ -38,16 +38,16 @@ const Services2 = () => {
         >
           {chooseContent.map((item, i) => (
             <SwiperSlide key={i}>
-              <div className="service-card shadow-md rounded-2xl p-6 w-[300px] h-[900px] mx-auto flex flex-col items-center justify-between border border-gray-300 bg-transparent backdrop-blur-md">
+              <div className="service-card shadow-md rounded-2xl p-4 sm:p-6 w-full sm:w-[300px] h-auto sm:h-[900px] mx-auto flex flex-col items-center justify-between border border-gray-300 bg-transparent backdrop-blur-md">
                 <div className="service-thumb mb-4">
                   <img
                     src={item.img}
                     alt={item.title}
-                    className="w-52 h-52 object-cover rounded-lg"
+                    className="w-36 h-36 sm:w-52 sm:h-52 object-cover rounded-lg"
                   />
                 </div>
                 <div className="content text-center">
-                  <h3 className="text-3xl font-semibold mb-3 text-white">
+                  <h3 className="text-xl sm:text-3xl font-semibold mb-3 text-white">
                     <Link
                       to="/service/service-details"
                       className="hover:text-yellow-500"
@@ -57,7 +57,7 @@ const Services2 = () => {
                   </h3>
                   <Link
                     to="/service/service-details"
-                    className="service-btn text-lg font-medium bg-black text-white py-2 px-6 rounded-md inline-block"
+                    className="service-btn text-base sm:text-lg font-medium bg-black text-white py-2 px-4 sm:px-6 rounded-md inline-block"
                   >
                     Know More <i className="bi bi-arrow-right"></i>
                   </Link>

@@ -75,7 +75,7 @@ const Why = () => {
               1
             </div>
             <img
-              src="public/assets/img/pimg1.png"
+              src="./assets/img/pimg1.png"
               alt="Icon representing innovation-driven strategies"
               width="30"
               height="30"
@@ -97,7 +97,7 @@ const Why = () => {
             </div>
 
             <img
-              src="public/assets/img/pimg2.png"
+              src="./assets/img/pimg2.png"
               alt="Icon representing client-centric approach"
               width="40"
               height="40"
@@ -121,7 +121,7 @@ const Why = () => {
             </div>
 
             <img
-              src="public/assets/img/pimg3.png"
+              src="./assets/img/pimg3.png"
               alt="Icon representing industry expertise"
               width="40"
               height="40"
@@ -144,7 +144,7 @@ const Why = () => {
               4
             </div>
             <img
-              src="public/assets/img/pimg4.png"
+              src="./assets/img/pimg4.png"
               alt="Icon representing client-centric focus"
               width="40"
               height="40"
@@ -168,7 +168,7 @@ const Why = () => {
             </div>
 
             <img
-              src="public/assets/img/pimg5.png"
+              src="./assets/img/pimg5.png"
               alt="Icon representing collaboration and teamwork"
               width="40"
               height="40"

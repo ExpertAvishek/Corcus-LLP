@@ -55,7 +55,7 @@ const Client = () => {
           {[...logosRow1, ...logosRow1].map((img, index) => (
             <img
               key={index}
-              src={`public/assets/clients/${img}`}
+              src={`./assets/clients/${img}`}
               alt={`Client ${index + 1} logo`}
               className="client-logo"
             />
@@ -69,7 +69,7 @@ const Client = () => {
           {[...logosRow2, ...logosRow2].map((img, index) => (
             <img
               key={index}
-              src={`public/assets/clients/${img}`}
+              src={`./assets/clients/${img}`}
               alt={`Client ${index + 11} logo`}
               className="client-logo"
             />

@@ -1,158 +1,48 @@
-import { useState } from "react";
-import "../../assets/Services.css";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Services = () => {
-  const [activePanel, setActivePanel] = useState(null);
 
-  const services = [
-    {
-      title: "Branding",
-      subtitle: "Experience",
-      description:
-        "Transform your brand with our expert touch. We craft memorable identities that resonate and captivate your audience.",
-      list: [
-        "Research & Brand Strategy",
-        "Brand Guidelines",
-        "Brand Identity & Positioning",
-        "Naming & Domain",
-      ],
-      link: "/services/branding",
-      images: [
-        "/images/services/brandin1.webp",
-        "/images/services/branding2.webp",
-        "/images/services/branding3.webp",
-        "/images/services/branding4.webp",
-        "/images/services/branding5.webp",
-        "/images/services/branding6.webp",
-      ],
-    },
-    {
-      title: "Digital",
-      subtitle: "Experience",
-      description:
-        "Engage your visitors with stunning web designs. Our user-friendly, visually striking websites turn clicks into loyal customers.",
-      list: [
-        "Website Design & UI",
-        "Web Hosting",
-        "Website Development",
-        "Performance Optimisation",
-      ],
-      link: "/services/digital-experience",
-      images: [
-        "/images/services/digi1.webp",
-        "/images/services/digi2.webp",
-        "/images/services/digi3.webp",
-      ],
-    },
-    {
-      title: "Packaging",
-      subtitle: "Experience",
-      description:
-        "Stand out on the shelves with our eye-catching packaging designs. We blend form and function to make your products irresistible.",
-      list: [
-        "Brand Strategy Development",
-        "Product Positioning",
-        "Packaging design for Hero Products",
-        "Guideline formulation",
-      ],
-      link: "/services/packaging",
-      images: [
-        "/images/services/pkg1.webp",
-        "/images/services/pkg2.webp",
-        "/images/services/pkg3.webp",
-      ],
-    },
-    {
-      title: "Ecommerce",
-      subtitle: "Experience",
-      description:
-        "Boost your online sales with our seamless eCommerce solutions. From design to launch, we create digital storefronts that convert.",
-      list: [
-        "Brand roadmap",
-        "Communication Design",
-        "E-com store Set up Strategy",
-        "Front-end & Back-end development",
-      ],
-      link: "/services/ecommerce",
-      images: ["/images/services/ecomm1.webp"],
-    },
-  ];
-
-  const togglePanel = (index) => {
-    setActivePanel(activePanel === index ? null : index);
-  };
-
+const Servicenew= () => {
   return (
-    <div data-aos="fade-up" className="seevices">
-      <div className="seevice-height">
-        <h2 className="main-heading">
-          OUR <br />
-          <span className="sec-heading">SERVICES</span>
-        </h2>
-        <div className="accordion">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              className={`panel ${activePanel === index ? "active" : ""}`}
-            >
-              <div className="row">
-                <div className="column1">
-                  <h3 className="services-heading">
-                    {service.title} <br />
-                    {service.subtitle}
-                  </h3>
-                </div>
-                <div className="column2">
-                  <div className="arr-sec">
-                    <p className="seevices-subheading">{service.description}</p>
-                    <img
-                      alt="Down Arrow"
-                      width="100"
-                      height="37"
-                      className="arrow-down"
-                      src="/images/services/dwn.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="content">
-                <div className="row">
-                  <div className="column1">
-                    {service.list.map((item, i) => (
-                      <p key={i} className="seevice-list">{`${
-                        i + 1
-                      }. ${item}`}</p>
-                    ))}
-                    <div className="know-more">
-                      <a className="button-elegant" href={service.link}>
-                        KNOW MORE
-                      </a>
-                    </div>
-                  </div>
-                  <div className="column2">
-                    <div
-                      className={`image-section ${service.title.toLowerCase()}`}
-                    >
-                      {service.images.map((img, i) => (
-                        <img
-                          key={i}
-                          alt={`${service.title} Image ${i + 1}`}
-                          width="100"
-                          height="37"
-                          className="seevice-image"
-                          src={img}
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+    <div className="container border rounded-lg p-4 mt-4">
+      <div className="row">
+        <div className="col-md-6 p-4">
+          <h1 className="display-4 font-weight-bold mb-4">Branding Experience</h1>
+          <p className="text-muted mb-4">
+            Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
+          </p>
+          <ul className="list-unstyled mb-4">
+            <li>1. Consistency</li>
+            <li>2. Authenticity</li>
+            <li>3. Brand Identity & Positioning</li>
+            <li>4. Naming & Domain</li>
+          </ul>
+          <button className="btn btn-dark">KNOW MORE</button>
         </div>
+        <div className="col-md-6 p-4">
+          <div className="row">
+            <div className="col-6 mb-4">
+              <img src="https://placehold.co/300x200" alt="Branding image 1" className="img-fluid rounded-lg" />
+            </div>
+            <div className="col-6 mb-4">
+              <img src="https://placehold.co/300x200" alt="Branding image 2" className="img-fluid rounded-lg" />
+            </div>
+            <div className="col-6 mb-4">
+              <img src="https://placehold.co/300x200" alt="Branding image 3" className="img-fluid rounded-lg" />
+            </div>
+            <div className="col-6 mb-4">
+              <img src="https://placehold.co/300x200" alt="Branding image 4" className="img-fluid rounded-lg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="d-flex justify-content-end mt-4">
+        <button className="btn btn-warning rounded-circle">
+          <i className="fas fa-chevron-up"></i>
+        </button>
       </div>
     </div>
   );
 };
 
-export default Services;
+export default Servicenew;

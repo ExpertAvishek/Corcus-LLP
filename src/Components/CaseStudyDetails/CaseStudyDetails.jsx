@@ -156,5 +156,4 @@ const CaseStudyDetails = () => {
     </section>
   );
 };
-
 export default CaseStudyDetails;

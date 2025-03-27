@@ -61,16 +61,16 @@ const HeroBanner2 = () => {
   return (
     <section className="hero-section hero-2" data-background={heroContent.bg}>
       <div className="trophy-shape">
-        <img src="./assets/img/hero/trophy-shape.png" alt="img" />
+        <img src="/assets/img/hero/trophy-shape.png" alt="img" />
       </div>
       <div className="left-shape">
-        <img src="./assets/img/hero/left-shape.png" alt="img" />
+        <img src="/assets/img/hero/left-shape.png" alt="img" />
       </div>
       <div className="right-shape">
-        <img src="./assets/img/hero/right-shape.png" alt="img" />
+        <img src="/assets/img/hero/right-shape.png" alt="img" />
       </div>
       <div className="rocket-shape float-bob-y">
-        <img src="./assets/img/hero/rocket-2.png" alt="img" />
+        <img src="/assets/img/hero/rocket-2.png" alt="img" />
       </div>
       <div className="container-fluid">
         <div className="row g-4 justify-content-between align-items-center">
@@ -113,16 +113,16 @@ const HeroBanner2 = () => {
                 data-wow-delay="0.3s"
               />
               <div className="bg-shape">
-                <img src="./assets/img/hero/bg-shape-2.png" alt="img" />
+                <img src="/assets/img/hero/bg-shape-2.png" alt="img" />
               </div>
               <div className="box-shape">
-                <img src="./assets/img/hero/box-shape.png" alt="img" />
+                <img src="/assets/img/hero/box-shape.png" alt="img" />
               </div>
               <div className="gap-shape">
-                <img src="./assets/img/hero/gap-box.png" alt="img" />
+                <img src="/assets/img/hero/gap-box.png" alt="img" />
               </div>
               <div className="cursor-shape">
-                <img src="./assets/img/hero/cursor.png" alt="img" />
+                <img src="/assets/img/hero/cursor.png" alt="img" />
               </div>
             </div>
           </div>

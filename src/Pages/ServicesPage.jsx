@@ -1,19 +1,16 @@
 import BreadCumb from "../Components/Common/BreadCumb";
 import Cta2 from "../Components/Cta/Cta2";
 import Pricing1 from "../Components/Pricing/Pricing1";
-import Services2 from "../Components/Services/Services2";
 import Testimonial2 from "../Components/Testimonial/Testimonial2";
 import WhyChoose4 from "../Components/WhyChoose/WhyChoose4";
 import ContactForm from "../Components/contactForm";
-import Servicesnew from "../Components/servicenew/Services";
+
 import Serviceshero from "../Components/HeroBanner/Serviceshero";
 
 const ServicesPage = () => {
   return (
     <div>
       <Serviceshero></Serviceshero>
-      <Services2></Services2>
-      <Servicesnew></Servicesnew>
       {<ContactForm></ContactForm>}
       {/* <WhyChoose4></WhyChoose4> */}
       {/* <Pricing1 CoulmnClass="pricing-section section-padding"></Pricing1> */}

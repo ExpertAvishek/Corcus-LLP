@@ -1,13 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-const Servicenew= () => {
+const Servicenew = () => {
   return (
     <div className="container border rounded-lg p-4 mt-4">
       <div className="row">
         <div className="col-md-6 p-4">
-          <h1 className="display-4 font-weight-bold mb-4">Branding Experience</h1>
+          <h1 className="display-4 font-weight-bold mb-4 branding-title">Branding Experience</h1>
           <p className="text-muted mb-4">
             Our approach to branding combines creativity, strategy, and storytelling. We work closely with you to define your brand’s mission, vision, and personality, translating them into visual and emotional elements that resonate with your target audience.
           </p>
@@ -17,7 +16,7 @@ const Servicenew= () => {
             <li>3. Brand Identity & Positioning</li>
             <li>4. Naming & Domain</li>
           </ul>
-          <button className="btn btn-dark">KNOW MORE</button>
+          <a href="/contact" className="btn btn-dark know-more-button">KNOW MORE</a>
         </div>
         <div className="col-md-6 p-4">
           <div className="row">

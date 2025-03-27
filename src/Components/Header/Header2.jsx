@@ -94,7 +94,7 @@ export default function Header2({ variant }) {
         </div>
       </div>
 
-      <div className="cs_site_header_spacing_130"></div>
+      <div className="cs_site_header_spacing_40"></div>
     </div>
   );
 }

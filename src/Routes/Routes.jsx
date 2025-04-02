@@ -18,7 +18,7 @@ import BlogDetailsPage from "../Pages/BlogDetailsPage";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout2></Layout2>,
+    element: <Home3></Home3>,
 
     children: [
       {
